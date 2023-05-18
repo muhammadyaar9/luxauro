@@ -1,0 +1,417 @@
+.gmg-language button {
+	font-size: 10px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+	background: #D8D8D8;
+	color: #757575;
+	border: none;
+}
+
+.gmg-language p {
+	font-size: 14px;
+	color: #525252;
+}
+
+.luxauro-gmg-image {
+	position: relative;
+}
+
+.jone-logo {
+	position: absolute;
+	bottom: 20px;
+	right: 15px;
+}
+
+.btn-groups button {
+	font-size: 14px;
+	margin: 5px 0px;
+	background: #D8D8D8;
+	color: #757575;
+	border: none;
+	padding: 8px 10px;
+}
+
+.gmb-subheading h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.calender-image {
+	background: transparent	;
+	position: relative;
+	background: rgba(255, 255, 255, 0.3);
+	height: auto;
+	width: auto;
+}
+
+.contact-me {
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translate(-50%, -6%);
+  padding: 10px 28px;
+}
+
+.luxauro-gmb-main {
+	padding-top: 0px;
+}
+
+.book-a-solt {
+	padding-top: 25px;
+}
+
+.book-a-solt h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.view-my-store h4 {
+    font-weight: bold;
+}
+
+.service-overview h5 {
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+.service-overview p {
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+/*Suite Management*/
+
+.business-section .pincel {
+  position: relative;
+}
+
+.business-section .pincel::after {
+  position: absolute;
+  content: "\f040";
+  font-family: "FontAwesome";
+  right: -30px;
+  bottom: 0;
+  color: #DEDEDE;
+  font-size: 16px;
+  color: #6a6969;
+}
+
+
+.business-section p {
+	font-size: 18px;
+}
+
+.business-logo-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.my-business-logo-image {
+  position: relative;
+  display: inline-block;
+}
+
+.my-business-logo-image .upload-logo i {
+  position: absolute;
+	right: -30px;
+	bottom: 1px;
+	background: #D9D9D9;
+	padding: 5px 5px;
+	border-radius: 2px;
+	color: #2D2D2D;
+}
+
+.my-business-banner {
+	position: relative;
+	display: inline-block;
+}
+
+.business-banner {
+	height: 60px;
+  width: 150px;
+  position: relative;
+}
+
+.business-header .upload-logos i {
+	background: #D9D9D9;
+	padding: 15px;
+	border-radius: 2px;
+	color: #2D2D2D;
+	font-size: 30px;
+	margin-left: 5px;
+}
+
+.business-address h5 {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.transaction-history .form-select {
+  border: 0;
+  width: 32%;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.transaction-history .account-name {
+	background: #1E3538;
+	padding: 10px;
+	color: #fff;
+	height: 100px;
+	position: relative;
+}
+
+.table-bg {
+	background: #F1F1F1;
+	padding: 3px 5px 4px 3px;
+}
+
+.transaction-history .table thead tr {
+	background: #1E3538;
+	color: #fff;
+	font-size: 14px;
+}
+
+.transaction-history .table {
+	font-size: 12px;
+	background: #fff;
+
+}
+
+.transaction-history .table tr.date {
+		background: #E5E5E5;
+}
+
+.transaction-history .table tr {
+	box-shadow: none;
+}
+
+.transaction-history tr td {
+	padding: 5px 8px;
+}
+
+.transaction-history .table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.transaction-history .table tr td:nth-child(3) {
+    text-align: right;
+}
+
+.pagination .page-link {
+	border: 0px solid #dee2e6;
+	color: #767777;
+}
+
+
+/* payment-management-section  */
+
+.payment-management-section .delete-arrow .arrow-delete {
+	position: relative;
+}
+
+.payment-management-section .arrow-delete::before {
+	position: absolute;
+	content: "\f105 ";
+	font-family: "FontAwesome";
+	right: -11px;
+	top: 0;
+	color: black;
+}
+
+.payment-management-section h2 {
+	font-size: 22px;
+}
+
+.luxauro-subscription-setting p {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* luxauro-subscription-section  */
+
+
+.luxauro-subscription-section h2 {
+	font-size: 22px;
+}
+
+.luxauro-subscription-section .nav-pills .nav-link {
+	font-size: 16px;
+}
+
+.luxauro-subscription-section .product-item .txt-holder {
+	padding: 15px 5px;
+}
+
+.luxauro-subscription-section .add-to-current > a {
+	font-size: 12px;
+  padding: 0px 4px;
+  background: #13D913;
+  color: #fff;
+}
+
+.subscriptions-producct .add-to-current-text a {
+	text-transform: capitalize;
+}
+
+.subscriptions-producct .add-to-current a.btn  {
+	padding: 0px 3px;
+	font-size: 10px;
+}
+
+.luxauro-subscription-section .sub-product-image {
+	width: 70px;
+	height: 100%;
+}
+
+.luxauro-subscription-current {
+	counter-reset: section;
+}
+
+ul.subscriptions-producct:before {
+	counter-increment: section;
+  content: counter(section) ".";
+  margin-bottom: 25px;
+}
+
+.luxauro-product-item a.btn {
+	background: #CFCFCF;
+	color: #fff;
+	padding: 0px 2px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.luxauro-ended ul li {
+	margin: 0px 6px;
+}
+
+.setup-merchant-heading {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+
+/* luxauro-subscription-section */
+
+/*.luxauro-subscription-section h2 {
+	font-size: 22px;
+}
+
+.luxauro-subscription-section .nav-pills .nav-link {
+	font-size: 16px;
+}
+
+.luxauro-subscription-section .product-item .txt-holder {
+	padding: 15px 5px;
+}
+
+.luxauro-subscription-section .add-to-current > a {
+	font-size: 12px;
+  padding: 0px 4px;
+  background: #13D913;
+  color: #fff;
+}
+
+.subscriptions-producct .add-to-current-text a {
+	text-transform: capitalize;
+}
+
+.subscriptions-producct .add-to-current a.btn  {
+	padding: 0px 3px;
+	font-size: 10px;
+}
+
+.luxauro-subscription-section .sub-product-image {
+	width: 70px;
+	height: 100%;
+}
+
+.luxauro-subscription-current {
+	counter-reset: section;
+}
+
+ul.subscriptions-producct:before {
+	counter-increment: section;
+  content: counter(section) ".";
+  margin-bottom: 25px;
+}
+
+.luxauro-product-item a.btn {
+	background: #CFCFCF;
+	color: #fff;
+	padding: 0px 2px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}*/
+
+.luxauro-ended {
+	 width:100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 767.98px) {
+	.luxauro-gmb-main {
+	padding-top: 80px;
+}
+}
+
+@media only screen and (min-width: 1199.98px) {
+	.subscriptions-producct {
+		display: flex;
+		column-gap: 16px;
+		align-items: flex-end;
+}
+.luxauro-ended {
+	 width:100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+}
+
+.input-number{
+  width: 80px; 
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+}
+
+.input-number,
+.input-number-decrement,
+.input-number-increment {
+  border: 0px solid #ccc;
+  height: 40px;
+  user-select: none;
+}
+
+.input-number-decrement,
+.input-number-increment {
+  display: inline-block;
+  width: 30px;
+  line-height: 38px;
+  background: transparent;
+  color: #0009;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+  .input-number-decrement,
+.input-number-increment:active{
+    background: transparent;
+  }
+
+.input-number-decrement{
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+.input-number-increment{
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}

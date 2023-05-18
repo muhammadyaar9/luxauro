@@ -1,0 +1,815 @@
+.project-categories h2{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 15px;
+  font-weight: 600;
+ 
+}
+
+.project-categories p {
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.agriculture {
+	background: #fff;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.agriculture p {
+	text-align: center;
+	color: #0009;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.agriculture-banners {
+	background-color: #123033;
+	padding: 40px 0px;
+}
+
+.goldevine-work h2 {
+	color: #123033;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.goldevine-work p {
+	color: #BAB3BC;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.founder-heading h3 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #123033;
+}
+
+.funder-image {
+    width: 50px;
+}
+
+.path-founder {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.explore-projects {
+	background: #123033;
+}
+
+.explore-projects h2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.gold-meta-guild-image {
+	width: 300px;
+}
+
+.gold-meta-subheading h3 {
+	font-size: 35px;
+	color: #fff;
+	font-weight: 600;
+  text-align: center;
+}
+
+.gold-meta-section {
+	background-color: #5ce78c;
+}
+
+.business-section .pincel {
+  position: relative;
+}
+
+.business-section .pincel::after {
+  position: absolute;
+  content: "\f040";
+  font-family: "FontAwesome";
+  right: -30px;
+  bottom: 0;
+  color: #DEDEDE;
+  font-size: 16px;
+  color: #6a6969;
+}
+
+.gold-meta-hold h3 {
+	font-size: 25px;
+	font-weight: bold;
+  text-align: center;
+}
+
+.gold-meta-subheading .find-to-professional {
+  background-color: #fff;
+  color: #123033;
+  font-weight: bold;
+}
+
+.gold {
+	color: #e7d689;
+}
+
+.crowdfunding-section {
+	background-color: #123033;
+}
+
+.crowdfunding-text h4 {
+	font-size: 45px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.crowdfunding-text-2 h6 {
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.crowdfunding-btn {
+	background-color: #5ce78c;
+	border: 1px solid #5ce78c;
+}
+
+
+.agriculture-banners .slick-next {
+    right: 25px;
+}
+
+.agriculture-banners .slick-prev {
+    left: 25px;
+}
+
+.goldevine-card .card {
+	position: relative;
+	background-color: #123033;
+	color: #fff;
+	border: 0;
+	-webkit-box-shadow: 0px 0px 10px 4px rgba(169,169,169,1);
+	-moz-box-shadow: 0px 0px 10px 4px rgba(169,169,169,1);
+	box-shadow: 0px 0px 10px 4px rgba(169,169,169,1);
+	margin: 0px auto;
+	display: inline-block;
+
+}
+
+.goldevine-card-image {
+	position: relative;
+		 width: 100%;
+  max-width: 400px;
+}
+
+.goldevine-card .card img {
+display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.goldevine-card-image:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  -ms-transform: translate(-50%, -25%);
+  text-align: center;
+}
+
+a.goldevine-icon > i {
+	background: #5ce78c;
+	color: #fff;
+	padding: 8px;
+	border-radius: 5px;
+  margin: 1px;
+}
+
+.goldevine-card a {
+	opacity: 1 ;
+}
+
+a.goldevine-icon > i:hover {
+	background-color: #fff;
+	color: #5ce78c;
+}
+
+.goldevine-card p {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+@media only screen and (min-width: 991.98px) {
+		.project-categories h2{
+			font-size: 45px;
+		   margin-bottom: 22px;
+}
+}
+
+.goldevine-project-details-page .product-item .txt-holder {
+    background-color: transparent;
+    padding: 20px 0px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 1198.98px) {
+.agriculture-banners .slick-prev, .slick-next {
+    width: 35px;
+    height: 35px;
+}
+
+
+.goldevine-project-details-page .slick-prev, .slick-next {
+    width: 35px;
+    height: 35px;
+}
+
+.project-page-mockup .slick-prev, .slick-next {
+    width: 35px;
+    height: 35px;
+}
+
+.agriculture-banners .slick-next {
+    right: -46px;
+}
+
+.agriculture-banners .slick-prev {
+    left: -46px;
+}
+}
+
+
+.wrap-parent-slider .wrap {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  padding: 0 60px;
+  /*background: url('https://t3.ftcdn.net/jpg/01/91/95/30/360_F_191953033_gehQATeDoh5z6PyRDbeKyBZuS83CjMEF.jpg') center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;*/
+  overflow: hidden;
+}
+
+.wrap-parent-slider .wrap:after {
+  content:'';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+/*  background: rgba(0,0,0,.5);*/
+}
+
+.wrap-parent-slider .slider-wrap {
+  position: relative;
+  z-index: 200;
+  padding: 0 0px;
+  margin: 0rem auto 4rem;
+ max-width: 1200px;
+  width: 100%;
+}
+
+.wrap-parent-slider .slick-list {
+	padding: 0 !important;
+}
+
+.wrap-parent-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -25px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-family: monospace;
+  font-size: 5rem;
+  z-index: 300;
+  outline: none;
+}
+
+.wrap-parent-slider .slick-prev {
+  left: -50px;
+  text-align: left;
+}
+
+.wrap-parent-slider .slick-next {
+  right: -50px;
+  text-align: right;
+}
+
+
+
+.wrap-parent-slider .item.slick-slide {
+  width: 400px;
+  height: 400px !important;
+  transition: transform .4s;
+  position: relative; 
+}
+
+.wrap-parent-slider .slick-slide:after {
+  content:'';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  transition: transform .4s;
+}
+
+.wrap-parent-slider .item.slick-slide {
+  transform: scale(0.7)  translate(640px);
+}
+
+.wrap-parent-slider .item.slick-slide.slick-center + .slick-slide {
+  transform: scale(0.8) translate(-250px);
+  z-index: 10;
+}
+
+.wrap-parent-slider .item.slick-slide.slick-center + .slick-slide + .item.slick-slide {
+  transform: scale(0.7)  translate(-640px);
+  z-index: 5;
+}
+
+.wrap-parent-slider .item.slick-slide.slick-active {
+  transform: scale(0.8) translate(250px);
+}
+
+.wrap-parent-slider .item.slick-slide.slick-center {
+
+  transform: scale(1);
+  z-index: 30;
+}
+
+.wrap-parent-slider .slick-center:after {
+  opacity: 0;
+}
+
+.card-item-text h6 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.wrap-parent-slider .item {
+	position: relative;
+}
+
+.wrap-parent-slider .card-item-text {
+	background-color: #123033;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+}
+
+.wrap-parent-slider .slick-dots li button::before {
+  font-size: 8px;
+  color: #000;
+  opacity: 1;
+}
+
+.wrap-parent-slider .slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #5ce78c;
+  font-size: 16px;
+}
+
+.wrap-parent-slider .slick-dots li {
+	margin: 0;
+}
+
+.wrap-parent-slider .slick-dots {
+  bottom: -55px;
+  margin-bottom: 0;
+}
+
+.wrap-parent-slider .item:hover .overlay-icon .icon-bottom {
+	opacity: 1;
+}
+
+.overlay-icon .icon-bottom {
+  color: white;
+  font-size: 19px;
+  position: absolute;
+  bottom: 29%;
+  left: 50%;
+  transform: translate(-50%, -29%);
+  -ms-transform: translate(-50%, -25%);
+  text-align: center;
+  background: #123033;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 99;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+ }
+
+ .overlay-icon a {
+ 	opacity: 1;
+ }
+
+ .overlay-icon a.goldevine-icon > i {
+  background: #123033;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 0px;
+  width: 33%;
+}
+
+.overlay-icon a.goldevine-icon > i:hover {
+	background-color: #5ce78c;
+
+}
+
+.gold-meta-guild-section {
+  background-color: #123033;
+}
+
+.gold-meta-banner-section h3 {
+  font-size: 50px;
+  color: #123033;
+}
+
+.transaction-history .form-select {
+  border: 0;
+  width: 32%;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.transaction-history .account-name {
+  background: #1E3538;
+  padding: 10px;
+  color: #fff;
+  height: 100px;
+  position: relative;
+}
+
+.table-bg {
+  background: #F1F1F1;
+  padding: 3px 5px 4px 3px;
+}
+
+.transaction-history .table thead tr {
+  background: #1E3538;
+  color: #fff;
+  font-size: 14px;
+}
+
+.transaction-history .table {
+  font-size: 12px;
+  background: #fff;
+
+}
+
+.transaction-history .table tr.date {
+    background: #E5E5E5;
+}
+
+.transaction-history .table tr {
+  box-shadow: none;
+}
+
+.transaction-history tr td {
+  padding: 5px 8px;
+}
+
+.transaction-history .table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.transaction-history .table tr td:nth-child(3) {
+    text-align: right;
+}
+
+.luxauro-subscription-current {
+  counter-reset: section;
+}
+
+ul.subscriptions-producct:before {
+  counter-increment: section;
+  content: counter(section) ".";
+  margin-bottom: 25px;
+}
+
+.luxauro-product-item a.btn {
+  background: #CFCFCF;
+  color: #fff;
+  padding: 0px 2px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.luxauro-ended ul li {
+  margin: 0px 6px;
+}
+
+.setup-merchant-heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.luxauro-subscription-current .sub-product-image {
+    max-width: 120px;
+  height: auto;
+}
+
+.progres-circle .progress{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progres-circle .progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progres-circle .progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progres-circle .progress .progress-left{
+    left: 0;
+}
+.progres-circle .progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 4px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progres-circle .progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progres-circle .progress .progress-right{
+    right: 0;
+}
+.progres-circle .progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progres-circle .progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    color: #293C3E;
+    line-height: 44px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 8px;
+}
+.progres-circle .progress.blue .progress-bar{
+    border-color: #293C3E;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+.my-project .subscriptions-producct {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #DFDFDF; 
+    border-radius: 5px;
+    padding: 10px 10px !important;
+
+  }
+
+  .goldevine-project-details-page .slick-slide {
+    margin: 0 12px;
+}
+
+.txt-holder .color-saceem span i {
+  color: #5ce78c;
+}
+
+.select-benefits:hover {
+  color: #123033;
+  background-color: #5ce78c;
+  border: 1px solid #5ce78c;
+}
+
+.diamond-img-holder{
+  background-image: url('../images/diamand.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+}
+
+.gold-img-holder {
+  background-image: url('../images/gold2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+}
+
+.diamond-img-holder span, .gold-img-holder span {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 0 0 5px;
+  display: block;
+}
+
+.present-project {
+  color: #5ce78c;
+}
+
+.detail-nav-slider-gv .slick-slide {
+    margin: 0 8px;
+}
+
+.project-user-logo {
+  max-width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 30px;
+}
+
+.by-project {
+  position: relative;
+}
+
+.by-project::after {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 2px;
+  background: #d7d7d7;
+  right: -10px;
+  top: 5px;
+}
+
+.by-project::before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 2px;
+  background: #d7d7d7;
+  left: -8px;
+  top: 5px;
+}
+
+.project-social-media span a i.fa-facebook-official {
+  color: #3b5998;
+}
+
+.project-social-media span a i.fa-twitter-square {
+  color: #00acee;
+}
+
+.project-social-media span a i.fa-linkedin-square {
+  color: #0072b1;
+}
+
+.project-social-media span a i.fa-pinterest-square {
+  color: #c8232c ;
+}
+
+.project-social-media span a i.fa-share-alt {
+  color: #333333 ;
+}
+
+.backers-number span {
+  display: block;
+  text-align: center;
+}
+
+.founder-profile-page .account-image {
+    height: 190px;
+    width: 190px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.founder-profile-page .gmg-language p {
+  font-size: 14px;
+}
+
+.founder-profile-page .gmg-language button {
+  font-size: 12px;
+  background-color: #D8D8D8 !important;
+}
+
+@media only screen and (min-width: 1198.98px) {
+  .my-project .subscriptions-producct {
+    justify-content: space-between;
+    border: 0;
+    padding: 0 !important;
+  }
+}
